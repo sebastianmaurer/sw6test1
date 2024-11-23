@@ -1,0 +1,4 @@
+framework:
+  trusted_proxies: '%env(TRUSTED_PROXIES)%'
+  mailer:
+    message_bus: 'messenger.default_bus'
